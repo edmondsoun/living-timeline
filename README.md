@@ -28,7 +28,7 @@ To create new tables:
 npx prisma db push
 ```
 
-Make sure to update the Prisma client when the schema file is changed:
+Make sure to update the Prisma client installed in the Next app when the schema file is changed:
 
 ```zsh
 npx prisma generate
